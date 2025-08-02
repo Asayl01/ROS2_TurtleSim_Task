@@ -69,3 +69,4 @@ ros2 run turtlesim turtle_teleop_key
 Use the arrow keys (↑ ↓ ← →) on your keyboard to move the turtle around the screen.
 > Make sure the turtlesim window is already running in another terminal.
 
+![move](move.jpg)
