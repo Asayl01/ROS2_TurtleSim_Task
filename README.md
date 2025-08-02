@@ -54,5 +54,6 @@ To launch the turtlesim simulation and see the turtle window, run the following 
 ros2 run turtlesim turtlesim_node
 ```
 
-
+This will open a window with a turtle in the center of a colored screen.
+![Window](window.jpg)
 
