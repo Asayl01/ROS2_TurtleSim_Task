@@ -41,7 +41,7 @@ Once installed, you can verify the package by running:
 ros2 run turtlesim --help
 ```
 If installed correctly, it will display help information like this:
-![insta](insta.png)
+![insta](insta.jpg)
 
 
 
