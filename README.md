@@ -73,9 +73,9 @@ Use the arrow keys (↑ ↓ ← →) on your keyboard to move the turtle around 
 
 ---
 
-### 6 Exploring Nodes
+## 6 Exploring Nodes
 
-To see which nodes are currently active in the ROS2 system, run the following command:
+#### To see which nodes are currently active in the ROS2 system, run the following command:
 
 ```bash
 ros2 node list
@@ -86,3 +86,20 @@ This shows that two nodes are currently running:
 /teleop_turtle: responsible for reading keyboard input and sending movement commands.
 
 ![list](list.jpg)
+
+#### To view all active topics used by the running nodes, use the following command:
+
+```bash
+ros2 node list
+```
+This displays a list of topics used for communication between nodes
+
+/turtle1/cmd_vel: where velocity commands are published.
+/turtle1/pose: the turtle's position updates.
+/parameter_events and /rosout: system-level topics.
+
+![topic](topic.jpg)
+
+
+نسخ
+تحرير
