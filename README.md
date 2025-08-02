@@ -82,9 +82,9 @@ ros2 node list
 ```
 This shows that two nodes are currently running:
 
+```
 /turtlesim: responsible for displaying and updating the turtle simulation.
-
 /teleop_turtle: responsible for reading keyboard input and sending movement commands.
-
+```
 
 ![list](list.jpg)
