@@ -41,7 +41,18 @@ Once installed, you can verify the package by running:
 ros2 run turtlesim --help
 ```
 If installed correctly, it will display help information like this:
+
 ![insta](insta.jpg)
+
+---
+
+## 4. Launching the `turtlesim` Node
+
+To launch the turtlesim simulation and see the turtle window, run the following command:
+
+```bash
+ros2 run turtlesim turtlesim_node
+```
 
 
 
