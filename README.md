@@ -104,3 +104,14 @@ This displays a list of topics used for communication between nodes
 ![topic](topic.jpg)
 
 
+#### To view detailed information about a specific topic, like its message type and how many nodes are connected to it, use:
+
+```bash
+ros2 topic info /turtle1/cmd_vel
+```
+![topic_info](topic_info.jpg)
+
+This means one node (teleop) publishes commands to /turtle1/cmd_vel.
+Another node (turtlesim) subscribes to receive and act on those commands.
+
+
