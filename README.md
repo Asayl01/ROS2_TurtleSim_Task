@@ -35,5 +35,13 @@ After ROS2 is installed and sourced, you can install the turtlesim demo package 
 ```bash
 sudo apt install ros-humble-turtlesim
 ```
+Once installed, you can verify the package by running:
+
+```bash
+ros2 run turtlesim --help
+```
+If installed correctly, it will display help information like this:
+![insta](insta.png)
+
 
 
