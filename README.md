@@ -57,3 +57,15 @@ ros2 run turtlesim turtlesim_node
 This will open a window with a turtle in the center of a colored screen.
 ![Window](window.jpg)
 
+---
+
+## 5. Controlling the Turtle
+
+To control the turtle using your keyboard, open a **new terminal window**, and run:
+
+```bash
+ros2 run turtlesim turtle_teleop_key
+```
+Use the arrow keys (↑ ↓ ← →) on your keyboard to move the turtle around the screen.
+> Make sure the turtlesim window is already running in another terminal.
+
