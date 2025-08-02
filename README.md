@@ -83,6 +83,7 @@ ros2 node list
 This shows that two nodes are currently running:
 
 /turtlesim: responsible for displaying and updating the turtle simulation.
+
 /teleop_turtle: responsible for reading keyboard input and sending movement commands.
 
 ![list](list.jpg)
@@ -95,7 +96,9 @@ ros2 node list
 This displays a list of topics used for communication between nodes
 
 /turtle1/cmd_vel: where velocity commands are published.
+
 /turtle1/pose: the turtle's position updates.
+
 /parameter_events and /rosout: system-level topics.
 
 ![topic](topic.jpg)
