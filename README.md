@@ -70,3 +70,21 @@ Use the arrow keys (↑ ↓ ← →) on your keyboard to move the turtle around 
 > Make sure the turtlesim window is already running in another terminal.
 
 ![move](move.jpg)
+
+---
+
+### 6 Exploring Nodes
+
+To see which nodes are currently active in the ROS2 system, run the following command:
+
+```bash
+ros2 node list
+```
+This shows that two nodes are currently running:
+
+/turtlesim: responsible for displaying and updating the turtle simulation.
+
+/teleop_turtle: responsible for reading keyboard input and sending movement commands.
+
+
+![list](list.jpg)
