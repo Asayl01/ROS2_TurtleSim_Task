@@ -1,6 +1,5 @@
 # ROS2 TurtleSim Task
 
-# 🐢 ROS2 TurtleSim Task
 
 ## 1. Task Objective
 The goal of this task is to:
